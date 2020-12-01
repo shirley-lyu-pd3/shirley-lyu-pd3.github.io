@@ -3,6 +3,7 @@
 <ul>
   <li><a href="scene1">Scene 1</a></li>
   <li><a href="scene2">Scene 2</a></li>
+  <li><a href="scene3">Scene 3</a></li>
 </ul>
 
 <h2>Copyright notice</h2>
