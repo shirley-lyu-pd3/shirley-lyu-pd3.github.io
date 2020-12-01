@@ -20,7 +20,7 @@
     left: 160px;
     background-image: url("../research.png");
     background-size: cover;
-    animation: research_movement 45s linear 1s 1;
+    animation: research_movement 45s linear 1s infinite;
   }
 
   #word {
@@ -30,7 +30,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    animation: side_movement 45s linear 1s 1;
+    animation: side_movement 45s linear 1s infinite;
   }
 
   #music {
@@ -40,7 +40,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    animation: side_movement 45s linear 1s 1;
+    animation: side_movement 45s linear 1s infinite;
   }
 
   #layout {
@@ -48,7 +48,7 @@
     left: 160px;
     background-image: url("../layout.GIF");
     background-size: cover;
-    animation: main_movement 45s linear 1s 1;
+    animation: main_movement 45s linear 1s infinite;
   }
 
   @keyframes research_movement {
