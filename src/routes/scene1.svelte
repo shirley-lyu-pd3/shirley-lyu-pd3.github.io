@@ -3,6 +3,11 @@
 </script>
 
 <style>
+  @font-face {
+    font-family: "Houschka Rounded";
+    src: url("/font/Houschka Rounded Medium.ttf");
+  }
+
   #container {
     position: relative;
     width: 960px;
@@ -33,6 +38,7 @@
   }
 
   #title {
+    font-family: "Houschka Rounded";
     margin-top: 50px;
     height: 100px;
     width: 100%;
@@ -59,6 +65,7 @@
   }
 
   .setting-text {
+    font-family: "Houschka Rounded";
     align-self: center;
     justify-self: flex-start;
     margin-right: auto;
