@@ -113,7 +113,7 @@
     transform: translateX(-48%);
     animation-name: blink;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0;
     cursor: grab;
   }
 
@@ -128,13 +128,38 @@
       filter: brightness(1) saturate(100%);
     }
   }
+
+  #tip {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 400px;
+    position: absolute;
+    left: 58%;
+    top: 21%;
+  }
+
+  #pointer {
+    height: 120px;
+    margin-right: 15px;
+  }
+
+  #tip_text {
+    font-size: 22px;
+    color: white;
+    font-family: "Houschka Rounded";
+  }
 </style>
 
 <div id="container">
   <div id="inner-container">
     <div id="card" />
     <img id="warning" src="warning_tri.png" alt="Warning Triangle" />
-    <a href="." class="button" id="later">Later</a>
+    <a href="scene2" class="button" id="later">Later</a>
     <a href="." class="button" id="exercise">Exercise</a>
+  </div>
+  <div id="tip">
+    <img src="pointer.png" alt="pointer" id="pointer" />
+    <div id="tip_text">Move this to keep working anyway</div>
   </div>
 </div>
