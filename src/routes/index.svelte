@@ -5,6 +5,8 @@
   <li><a href="scene2">Scene 2</a></li>
   <li><a href="scene3">Scene 3</a></li>
   <li><a href="scene4">Scene 4</a></li>
+  <li><a href="scene5">Scene 5</a></li>
+  <li><a href="scene6">Scene 6</a></li>
 </ul>
 
 <h2>Copyright notice</h2>

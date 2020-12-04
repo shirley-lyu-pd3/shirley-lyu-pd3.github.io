@@ -80,7 +80,7 @@
     height: 100%;
     width: 100%;
     background-color: white;
-    border-radius: 100px;
+    border-radius: 80px;
     opacity: 70%;
   }
 
