@@ -45,10 +45,21 @@
     background-position: 50% 50%;
     border-radius: 80px;
   }
+
+  #copyright {
+    position: relative;
+    top: 300px;
+    color: white;
+  }
 </style>
 
 <div id="container">
   <div id="inner-container">
     <div id="card" />
+  </div>
+  <div id="copyright">
+    This GIF is screen-recorded from Keep® and is for demonstration purpose
+    only. In the final product, this can be any kind of exercise demonstrations
+    or interative experiences. All rights belong to Keep®.
   </div>
 </div>
