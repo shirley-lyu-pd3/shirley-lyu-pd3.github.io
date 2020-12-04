@@ -53,11 +53,11 @@
   }
 
   #standing {
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(124, 163, 153);
   }
 
   #sitting {
-    background-color: rgb(124, 163, 153);
+    background-color: rgb(155, 155, 155);
   }
 </style>
 
@@ -65,8 +65,8 @@
   <div id="inner-container">
     <div id="card" />
     <div id="flex">
-      <a href="static-sitting" class="button" id="sitting">Sitting</a>
       <a href="static-standing" class="button" id="standing">Standing</a>
+      <a href="static-sitting" class="button" id="sitting">Sitting</a>
     </div>
   </div>
 </div>
