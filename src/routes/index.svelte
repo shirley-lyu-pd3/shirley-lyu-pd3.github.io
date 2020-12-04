@@ -1,12 +1,12 @@
 <h1>Shirley Lyu PD3</h1>
 <h2>Scenes</h2>
 <ul>
-  <li><a href="scene1">Scene 1</a></li>
-  <li><a href="scene2">Scene 2</a></li>
-  <li><a href="scene3">Scene 3</a></li>
-  <li><a href="scene4">Scene 4</a></li>
-  <li><a href="scene5">Scene 5</a></li>
-  <li><a href="scene6">Scene 6</a></li>
+  <li><a href="scene1">Scene 1: Setting</a></li>
+  <li><a href="scene2">Scene 2: Layout demo</a></li>
+  <li><a href="scene3">Scene 3: Layout shift</a></li>
+  <li><a href="scene4">Scene 4: Exercise warning</a></li>
+  <li><a href="scene5">Scene 5: Excersie end</a></li>
+  <li><a href="scene6">Scene 6: Work mode selection</a></li>
 </ul>
 
 <h2>Copyright notice</h2>
