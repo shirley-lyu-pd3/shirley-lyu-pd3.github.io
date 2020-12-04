@@ -4,7 +4,7 @@
   onMount(function () {
     setTimeout(function () {
       window.location.assign("exercise-end");
-    }, 2900);
+    }, 5000);
   });
 </script>
 
