@@ -24,7 +24,6 @@
     border-radius: 15px;
     background-color: white;
     align-self: center;
-    margin: 5px;
   }
 </style>
 
