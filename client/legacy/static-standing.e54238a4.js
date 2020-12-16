@@ -1,17 +1,16 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, f as element, g as space, h as claim_element, j as children, l as detach_dev, m as claim_space, o as attr_dev, n as add_location, p as insert_dev, q as append_dev, r as noop, v as validate_slots } from './client.e6cce552.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, s as safe_not_equal, f as element, g as space, h as claim_element, j as children, l as detach_dev, m as claim_space, o as attr_dev, n as add_location, p as insert_dev, q as append_dev, r as noop, v as validate_slots } from './client.be080153.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-var file = "src/routes/static-sitting.svelte";
+var file = "src/routes/static-standing.svelte";
 
 function create_fragment(ctx) {
-  var div6;
+  var div5;
   var div0;
   var img;
   var img_src_value;
   var t0;
-  var div5;
   var div1;
   var t1;
   var div2;
@@ -21,11 +20,10 @@ function create_fragment(ctx) {
   var div4;
   var block = {
     c: function create() {
-      div6 = element("div");
+      div5 = element("div");
       div0 = element("div");
       img = element("img");
       t0 = space();
-      div5 = element("div");
       div1 = element("div");
       t1 = space();
       div2 = element("div");
@@ -36,12 +34,12 @@ function create_fragment(ctx) {
       this.h();
     },
     l: function claim(nodes) {
-      div6 = claim_element(nodes, "DIV", {
+      div5 = claim_element(nodes, "DIV", {
         id: true,
         class: true
       });
-      var div6_nodes = children(div6);
-      div0 = claim_element(div6_nodes, "DIV", {
+      var div5_nodes = children(div5);
+      div0 = claim_element(div5_nodes, "DIV", {
         id: true,
         class: true
       });
@@ -52,12 +50,7 @@ function create_fragment(ctx) {
         class: true
       });
       div0_nodes.forEach(detach_dev);
-      t0 = claim_space(div6_nodes);
-      div5 = claim_element(div6_nodes, "DIV", {
-        id: true,
-        class: true
-      });
-      var div5_nodes = children(div5);
+      t0 = claim_space(div5_nodes);
       div1 = claim_element(div5_nodes, "DIV", {
         class: true,
         id: true
@@ -77,45 +70,42 @@ function create_fragment(ctx) {
       children(div3).forEach(detach_dev);
       t3 = claim_space(div5_nodes);
       div4 = claim_element(div5_nodes, "DIV", {
-        class: true
+        class: true,
+        id: true
       });
       children(div4).forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
-      div6_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
       if (img.src !== (img_src_value = "background2.jpg")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "background");
-      attr_dev(img, "class", "svelte-103f0bc");
-      add_location(img, file, 273, 23, 10571);
+      attr_dev(img, "class", "svelte-1fz1fcn");
+      add_location(img, file, 313, 4, 11008);
       attr_dev(div0, "id", "background");
-      attr_dev(div0, "class", "svelte-103f0bc");
-      add_location(div0, file, 273, 2, 10550);
-      attr_dev(div1, "class", "window svelte-103f0bc");
+      attr_dev(div0, "class", "svelte-1fz1fcn");
+      add_location(div0, file, 312, 2, 10982);
+      attr_dev(div1, "class", "window svelte-1fz1fcn");
       attr_dev(div1, "id", "research");
-      add_location(div1, file, 275, 4, 10657);
-      attr_dev(div2, "class", "window svelte-103f0bc");
+      add_location(div1, file, 315, 2, 11064);
+      attr_dev(div2, "class", "window svelte-1fz1fcn");
       attr_dev(div2, "id", "word");
-      add_location(div2, file, 276, 4, 10698);
-      attr_dev(div3, "class", "window svelte-103f0bc");
+      add_location(div2, file, 316, 2, 11103);
+      attr_dev(div3, "class", "window svelte-1fz1fcn");
       attr_dev(div3, "id", "music");
-      add_location(div3, file, 277, 4, 10735);
-      attr_dev(div4, "class", "window layout svelte-103f0bc");
-      add_location(div4, file, 278, 4, 10773);
-      attr_dev(div5, "id", "inner-container");
-      attr_dev(div5, "class", "svelte-103f0bc");
-      add_location(div5, file, 274, 2, 10626);
-      attr_dev(div6, "id", "container");
-      attr_dev(div6, "class", "svelte-103f0bc");
-      add_location(div6, file, 272, 0, 10527);
+      add_location(div3, file, 317, 2, 11138);
+      attr_dev(div4, "class", "window svelte-1fz1fcn");
+      attr_dev(div4, "id", "layout");
+      add_location(div4, file, 318, 2, 11174);
+      attr_dev(div5, "id", "container");
+      attr_dev(div5, "class", "svelte-1fz1fcn");
+      add_location(div5, file, 311, 0, 10959);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, div6, anchor);
-      append_dev(div6, div0);
+      insert_dev(target, div5, anchor);
+      append_dev(div5, div0);
       append_dev(div0, img);
-      append_dev(div6, t0);
-      append_dev(div6, div5);
+      append_dev(div5, t0);
       append_dev(div5, div1);
       append_dev(div5, t1);
       append_dev(div5, div2);
@@ -128,7 +118,7 @@ function create_fragment(ctx) {
     i: noop,
     o: noop,
     d: function destroy(detaching) {
-      if (detaching) detach_dev(div6);
+      if (detaching) detach_dev(div5);
     }
   };
   dispatch_dev("SvelteRegisterBlock", {
@@ -145,36 +135,36 @@ function instance($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots,
       $$scope = $$props.$$scope;
-  validate_slots("Static_sitting", slots, []);
+  validate_slots("Static_standing", slots, []);
   var writable_props = [];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Static_sitting> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Static_standing> was created with unknown prop '".concat(key, "'"));
   });
   return [];
 }
 
-var Static_sitting = /*#__PURE__*/function (_SvelteComponentDev) {
-  _inherits(Static_sitting, _SvelteComponentDev);
+var Static_standing = /*#__PURE__*/function (_SvelteComponentDev) {
+  _inherits(Static_standing, _SvelteComponentDev);
 
-  var _super = _createSuper(Static_sitting);
+  var _super = _createSuper(Static_standing);
 
-  function Static_sitting(options) {
+  function Static_standing(options) {
     var _this;
 
-    _classCallCheck(this, Static_sitting);
+    _classCallCheck(this, Static_standing);
 
     _this = _super.call(this, options);
     init(_assertThisInitialized(_this), options, instance, create_fragment, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
-      tagName: "Static_sitting",
+      tagName: "Static_standing",
       options: options,
       id: create_fragment.name
     });
     return _this;
   }
 
-  return Static_sitting;
+  return Static_standing;
 }(SvelteComponentDev);
 
-export default Static_sitting;
+export default Static_standing;
