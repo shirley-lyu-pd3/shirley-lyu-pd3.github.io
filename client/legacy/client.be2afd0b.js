@@ -2550,39 +2550,39 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.7487062c.js'), ]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.fbd90bd1.js'), ]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./work-mode-selection.72935670.js'), __inject_styles(["work-mode-selection-aeec83e1.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./work-mode-selection.ebad94d7.js'), __inject_styles(["work-mode-selection-aeec83e1.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./static-standing.e54238a4.js'), __inject_styles(["static-standing-1cd2744f.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./static-standing.5c7b5b2b.js'), __inject_styles(["static-standing-1cd2744f.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./static-sitting.ac4ec615.js'), __inject_styles(["static-sitting-41fbb322.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./static-sitting.f9112dff.js'), __inject_styles(["static-sitting-41fbb322.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./exercise-end.9dc6f1f7.js'), __inject_styles(["exercise-end-df4743aa.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./exercise-end.fbe11561.js'), __inject_styles(["exercise-end-df4743aa.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./exercise.a8b04252.js'), __inject_styles(["exercise-bf0f4d49.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./exercise.ced0c10c.js'), __inject_styles(["exercise-bf0f4d49.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./movement.f2fc5960.js'), __inject_styles(["movement-41babc70.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./movement.527a4bb1.js'), __inject_styles(["movement-5bd0eaa0.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./setting.53c4fea5.js'), __inject_styles(["setting-dff5266f.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./setting.1e8ebdca.js'), __inject_styles(["setting-dff5266f.css"])]).then(function(x) { return x[0]; });
   }
 }, {
   js: function js() {
-    return Promise.all([import('./warning.2d0d490b.js'), __inject_styles(["warning-89d93a1f.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./warning.ba80ed21.js'), __inject_styles(["warning-89d93a1f.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{
