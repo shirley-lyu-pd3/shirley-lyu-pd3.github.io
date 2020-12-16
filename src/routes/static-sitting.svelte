@@ -17,7 +17,7 @@
   #background img {
     object-fit: cover;
     filter: blur(3px);
-    animation: item-swing 5s;
+    animation: bg-swing 5s;
   }
 
   #inner-container {
@@ -70,6 +70,28 @@
     animation: layout-ring 5s, item-swing 5s;
   }
 
+  @keyframes bg-swing {
+    0% {
+      transform: translateX(0);
+    }
+
+    45% {
+      transform: translateX(0);
+    }
+
+    55% {
+      transform: translateX(500px);
+    }
+
+    75% {
+      transform: translateX(500px);
+    }
+
+    85% {
+      transform: translateX(0);
+    }
+  }
+
   @keyframes layout-ring {
     49% {
       @apply ring-4 ring-green ring-opacity-50;
@@ -116,11 +138,11 @@
     }
 
     55% {
-      transform: translateX(500px);
+      transform: translateX(400px);
     }
 
     75% {
-      transform: translateX(500px);
+      transform: translateX(400px);
     }
 
     85% {

@@ -3,8 +3,6 @@
     position: relative;
     width: 960px;
     height: 1080px;
-    background-image: url("../background2.jpg");
-    background-size: cover;
     overflow: hidden;
   }
 
@@ -19,7 +17,7 @@
   #background img {
     object-fit: cover;
     filter: blur(3px);
-    animation: item-swing 5s;
+    animation: bg-swing 5s;
   }
 
   .window {
@@ -103,7 +101,7 @@
     }
   }
 
-  @keyframes item-swing {
+  @keyframes bg-swing {
     0% {
       transform: translateX(0);
     }
@@ -118,6 +116,28 @@
 
     75% {
       transform: translateX(500px);
+    }
+
+    85% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes item-swing {
+    0% {
+      transform: translateX(0);
+    }
+
+    45% {
+      transform: translateX(0);
+    }
+
+    55% {
+      transform: translateX(400px);
+    }
+
+    75% {
+      transform: translateX(400px);
     }
 
     85% {
