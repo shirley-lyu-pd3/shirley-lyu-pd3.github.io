@@ -18,8 +18,20 @@
     position: relative;
     width: 960px;
     height: 1080px;
-    background-image: url("../background2.jpg");
-    background-size: cover;
+    overflow: hidden;
+  }
+
+  #background {
+    position: absolute;
+    left: -480px;
+    top: -1080px;
+    width: 1920px;
+    height: 2160px;
+  }
+
+  #background img {
+    object-fit: cover;
+    filter: blur(3px);
   }
 
   #inner-container {
@@ -54,6 +66,7 @@
 </style>
 
 <div id="container">
+  <div id="background"><img src="background2.jpg" alt="background"></div>
   <div id="inner-container">
     <div id="card" />
   </div>

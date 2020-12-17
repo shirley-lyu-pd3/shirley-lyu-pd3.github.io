@@ -8,8 +8,20 @@
     position: relative;
     width: 960px;
     height: 1080px;
-    background-image: url("../background1.jpg");
-    background-size: cover;
+    overflow: hidden;
+  }
+
+  #background {
+    position: absolute;
+    left: -480px;
+    top: -1080px;
+    width: 1920px;
+    height: 2160px;
+  }
+
+  #background img {
+    object-fit: cover;
+    filter: blur(3px);
   }
 
   #inner-container {
@@ -56,12 +68,21 @@
     background-color: rgb(155, 155, 155);
   }
 
+  #work:active {
+    background-color: rgb(135, 135, 135);
+  }
+
   #continue {
     background-color: rgb(124, 163, 153);
+  }
+
+  #continue:active {
+    background-color: rgb(95, 120, 110);
   }
 </style>
 
 <div id="container">
+  <div id="background"><img src="background1.jpg" alt="background"></div>
   <div id="inner-container">
     <div id="card" />
     <div id="flex">
